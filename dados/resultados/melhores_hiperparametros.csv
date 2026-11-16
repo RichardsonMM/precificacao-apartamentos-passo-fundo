@@ -1,0 +1,27 @@
+﻿modelo,hiperparametro,valor
+Random Forest,n_estimators,760
+Random Forest,max_depth,
+Random Forest,min_samples_leaf,1
+Random Forest,max_features,sqrt
+Gradient Boosting,n_estimators,800
+Gradient Boosting,learning_rate,0.030710573677773714
+Gradient Boosting,max_depth,6
+Gradient Boosting,min_samples_leaf,8
+Gradient Boosting,subsample,0.8387400631785948
+Gradient Boosting,max_features,sqrt
+XGBoost,n_estimators,527
+XGBoost,learning_rate,0.07766184280392888
+XGBoost,max_depth,8
+XGBoost,min_child_weight,7
+XGBoost,subsample,0.9637281608315128
+XGBoost,colsample_bytree,0.5488360570031919
+XGBoost,reg_lambda,0.1171593739230706
+XGBoost,reg_alpha,0.030586566669785254
+LightGBM,n_estimators,741
+LightGBM,learning_rate,0.011168401671455937
+LightGBM,num_leaves,35
+LightGBM,min_child_samples,6
+LightGBM,subsample,0.7114585856946446
+LightGBM,subsample_freq,1
+LightGBM,colsample_bytree,0.6424202471887338
+LightGBM,reg_lambda,0.014270403521460839

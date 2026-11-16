@@ -1,0 +1,22 @@
+# Cache de HTML e registros da coleta
+scraper/data/
+scraper/logs/
+
+# Gerados pelos scripts e reconstituíveis
+dados/revisao/paginas/
+dados/revisao/planilha_revisao.xlsx
+dados/resultados/modelos/
+notebooks/projeto_colab.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editores e sistema
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+~$*

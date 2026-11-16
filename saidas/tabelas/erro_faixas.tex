@@ -1,0 +1,19 @@
+% Gerado por analise/analise_erros.py - nao editar a mao
+\begin{table}[ht]
+\centering
+\caption{Erro do \textit{Gradient Boosting} no conjunto de teste por faixa de preço anunciado. Faixas e MAE em milhares de reais; o viés é a mediana do erro relativo (valores positivos indicam superestimação); Erro$^2$ é a parcela de cada faixa no erro quadrático total.}
+\label{tab:faixas}
+\small
+\begin{tabular}{lrrrrr}
+\toprule
+\textbf{Faixa} & \textbf{n} & \textbf{MAE} & \textbf{MAPE} & \textbf{Viés} & \textbf{Erro$^2$} \\
+& & & \textbf{(\%)} & \textbf{(\%)} & \textbf{(\%)} \\
+\midrule
+Até 400 & 87 & 49 & 15,8 & +7,8 & 4 \\
+400 a 700 & 88 & 82 & 14,8 & $-$3,1 & 5 \\
+700 a 1.200 & 85 & 115 & 13,0 & $-$0,3 & 9 \\
+1.200 a 2.000 & 33 & 256 & 16,6 & $-$6,2 & 16 \\
+Acima de 2.000 & 10 & 747 & 20,9 & $-$14,5 & 65 \\
+\bottomrule
+\end{tabular}
+\end{table}

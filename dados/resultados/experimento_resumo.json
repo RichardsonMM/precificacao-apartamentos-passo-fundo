@@ -1,0 +1,39 @@
+{
+  "n_base": 1010,
+  "n_treino": 707,
+  "n_teste": 303,
+  "n_lancamentos_sensibilidade": 128,
+  "busca": {
+    "n_iteracoes": 50,
+    "particoes": 5,
+    "criterio": "MAPE"
+  },
+  "cv_repetida": {
+    "particoes": 5,
+    "repeticoes": 5
+  },
+  "postos_medios": {
+    "LightGBM": 1.68,
+    "XGBoost": 2.24,
+    "Gradient Boosting": 2.4,
+    "Random Forest": 3.72,
+    "Regressão Linear": 4.96
+  },
+  "pares_significativos_holm": [
+    [
+      "Gradient Boosting",
+      "Regressão Linear"
+    ],
+    [
+      "LightGBM",
+      "Regressão Linear"
+    ],
+    [
+      "XGBoost",
+      "Regressão Linear"
+    ]
+  ],
+  "melhor_modelo_teste": "Gradient Boosting",
+  "melhor_arvore_shap": "Gradient Boosting",
+  "duracao_min": 12.3
+}

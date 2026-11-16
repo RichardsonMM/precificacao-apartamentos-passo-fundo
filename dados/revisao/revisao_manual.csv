@@ -1,0 +1,151 @@
+﻿id,codigo_imovel,titulo,categoria,decisao,campo,valor_corrigido,motivo,evidencia,pagina_em_05_10
+6,V54311,ALPEN - VILA RODRIGUES,area_suspeita,excluir,,,área privativa inválida no próprio cadastro do portal,"página: '0,55 m² Área Privativa', '0,14 m² Área Total'",conferida
+12,V55731,CHARDONAY 257 ANDAR ALTO,preco_m2_suspeito,manter,,,"alto padrão legítimo (Maestá, Chardonnay 257): 170–193 m² privativos, 3 suítes, 3–4 vagas",página confere com a base,conferida
+13,V51955,CHARDONNAY 257 | REVENDA DE ANDAR ALTO,preco_m2_suspeito,manter,,,"alto padrão legítimo (Maestá, Chardonnay 257): 170–193 m² privativos, 3 suítes, 3–4 vagas",página confere com a base,conferida
+14,V65128,MAESTÁ,preco_m2_suspeito,manter,,,"alto padrão legítimo (Maestá, Chardonnay 257): 170–193 m² privativos, 3 suítes, 3–4 vagas",página confere com a base,conferida
+14,V65128,MAESTÁ,duplicata,manter,,,"unidades distintas: áreas totais diferentes (324,25 × 342,75 m²)",grupo 38,conferida
+15,V65127,MAESTÁ PALACE HOME,preco_m2_suspeito,manter,,,"alto padrão legítimo (Maestá, Chardonnay 257): 170–193 m² privativos, 3 suítes, 3–4 vagas",página confere com a base,conferida
+15,V65127,MAESTÁ PALACE HOME,duplicata,manter,,,"unidades distintas: áreas totais diferentes (324,25 × 342,75 m²)",grupo 38,conferida
+16,V63162,CHARDONNAY 257,preco_m2_suspeito,manter,,,"alto padrão legítimo (Maestá, Chardonnay 257): 170–193 m² privativos, 3 suítes, 3–4 vagas",página confere com a base,conferida
+17,V43251,MAESTÁ PALACE HOME / 4 SUÍTES / 3 SUÍTES,preco_m2_suspeito,manter,,,"alto padrão legítimo (Maestá, Chardonnay 257): 170–193 m² privativos, 3 suítes, 3–4 vagas",página confere com a base,conferida
+19,V55888,MAESTÁ ANDAR ALTO,preco_m2_suspeito,manter,,,"alto padrão legítimo (Maestá, Chardonnay 257): 170–193 m² privativos, 3 suítes, 3–4 vagas",página confere com a base,conferida
+20,V57520,MAESTÁ PALACE,preco_m2_suspeito,manter,,,"alto padrão legítimo (Maestá, Chardonnay 257): 170–193 m² privativos, 3 suítes, 3–4 vagas",página confere com a base,conferida
+27,V65837,ORCHESTRA PREMIUM RESIDENCE,duplicata,excluir,,,"mesmo imóvel do id 28 (outra imobiliária, mesmo prédio, preço e área)",grupo 37,removida
+28,V57478,APTO 3 DORM | ED. ORCHESTRA,duplicata,manter,,,mesmo imóvel anunciado por outra imobiliária; mantido por ser o anúncio mais completo,grupo 37,conferida
+36,V57523,Portal imobiliário | Encontre seu imóvel em Passo Fundo,falha_carga,excluir,,,anúncio retirado do portal entre a indexação e a coleta da página,página atual: 'Imóvel indisponível ou código inválido',removida
+72,V35423,PREDIO COMERCIAL COM APARTAMENTO 03 DORMITÓRIOS,nao_apartamento,excluir,,,imóvel misto: prédio com loja comercial no térreo e apartamento,página: 'parte térrea toda para uso comercial'; dois valores (apto e lojas),conferida
+76,V46072,APARTAMENTO TRÊS DORMITÓRIOS | SOLAR PETRÓPOLIS,duplicata,excluir,,,"mesmo imóvel do id 77 (outra imobiliária, mesmo prédio, preço e área)",grupo 36,conferida
+77,V28796,ED. SOLAR PETRÓPOLIS- 3 VAGAS-  MOBILIADO,duplicata,manter,,,mesmo imóvel anunciado por outra imobiliária; mantido por ser o anúncio mais completo,grupo 36,conferida
+79,V64242,CASA MERLOT - 3 DORMITÓRIOS MOBILIADO,nao_apartamento,manter,,,falso positivo: é apartamento no Edifício Casa Merlot,"página: 'Lindo apartamento, no Edifício Casa Merlot'",conferida
+104,V64297,CASA ALTO PADRÃO,nao_apartamento,excluir,,,casa,"página: 'Casa de Alvenaria Alto Padrão', área construída + área do terreno",conferida
+127,V65577,CITRINO - 3 DORMITÓRIOS COM 3 VAGAS DE GARAGEM,duplicata,manter,,,mesmo imóvel anunciado por outra imobiliária; mantido por ser o anúncio mais completo,grupo 34,conferida
+129,V63844,PLAZA CENTER,duplicata,manter,,,mesmo imóvel anunciado por outra imobiliária; mantido por ser o anúncio mais completo,grupo 35,conferida
+130,V63820,APTO 3 DORM | ED. PLAZA CENTER,duplicata,excluir,,,"mesmo imóvel do id 129 (outra imobiliária, mesmo prédio, preço e área)",grupo 35,conferida
+134,V52139,3 DORMITORIOS NA VILA ANNES,duplicata,excluir,,,"mesmo imóvel do id 127 (outra imobiliária, mesmo prédio, preço e área)",grupo 34,conferida
+137,V45811,APARTAMENTO DOIS DORMITÓRIOS | NEW YORK RESIDENCE,preco_m2_suspeito,manter,,,lançamento central de alto padrão; valor plausível (sujeito à regra 'a partir de'),página confere,conferida
+166,V23673,ED.ELEGANCE MOROM - 4 DORM. - 2 SUÍTES,area_suspeita,excluir,,,área não publicada no anúncio,página sem nenhum campo de área,conferida
+188,V53818,CASA/PREDIO C/02 LOJAS LOCADAS  | PROX. TIRADENTES,nao_apartamento,excluir,,,imóvel misto: casa de 2 pisos com 2 lojas locadas,página: 'No piso térreo duas lojas',conferida
+211,V65222,CASA SOBRADO COM PISCINA,nao_apartamento,excluir,,,casa,"página: 'Características da casa', área do terreno 6x30",conferida
+263,V61495,Portal imobiliário | Encontre seu imóvel em Passo Fundo,falha_carga,excluir,,,anúncio retirado do portal entre a indexação e a coleta da página,página atual: 'Imóvel indisponível ou código inválido',removida
+271,V50793,Portal imobiliário | Encontre seu imóvel em Passo Fundo,falha_carga,excluir,,,anúncio retirado do portal entre a indexação e a coleta da página,página atual: 'Imóvel indisponível ou código inválido',removida
+297,V54382,Portal imobiliário | Encontre seu imóvel em Passo Fundo,falha_carga,excluir,,,anúncio retirado do portal entre a indexação e a coleta da página,página atual: 'Imóvel indisponível ou código inválido',removida
+299,V64740,Portal imobiliário | Encontre seu imóvel em Passo Fundo,falha_carga,excluir,,,anúncio retirado do portal entre a indexação e a coleta da página,página atual: 'Imóvel indisponível ou código inválido',removida
+329,V48473,APARTAMENTO DOIS DORMITÓRIOS | RESIDENCE TOWER,duplicata,manter,,,"prédios diferentes (Residence Tower, Centro × Oslo, Santa Terezinha): coincidência",grupo 33,conferida
+330,V45743,OSLO - 2 DORM. 1 SUÍTE,duplicata,manter,,,"prédios diferentes (Residence Tower, Centro × Oslo, Santa Terezinha): coincidência",grupo 33,conferida
+336,V61827,TOKIO RESIDENCE | REVENDA,duplicata,manter,,,mesmo imóvel anunciado por outra imobiliária; mantido por ser o anúncio mais completo,grupo 32,conferida
+339,V51270,APTO 3 DORM - FINAL 3 | ED. TOKYO,duplicata,excluir,,,"mesmo imóvel do id 336 (outra imobiliária, mesmo prédio, preço e área)",grupo 32,conferida
+368,V64461,CASA ALBA,duplicata,manter,,,mesmo imóvel anunciado por outra imobiliária; mantido por ser o anúncio mais completo,grupo 31,conferida
+369,V64110,RESIDENCIAL MONTREAL VILLAGE,bairro,corrigir,bairro,,campo bairro contém texto que não é bairro; a imputar pela coordenada,'mobilidade rápida.' / 'Garden' (nome do edifício),nao_aberta
+370,V60987,APARTAMENTO 2 DORM - CASA ALBA,duplicata,excluir,,,"mesmo imóvel do id 368 (outra imobiliária, mesmo prédio, preço e área)",grupo 31,conferida
+377,V61491,APTO DOIS DORMITÓRIOS | VILLA FRATELLO - REPASSE,duplicata,manter,,,"mesma imobiliária, códigos distintos: unidades de um mesmo lançamento (repasse)",grupo 30,conferida
+378,V61488,APTO DOIS DORMITÓRIOS | VILLA FRATELLO - REPASSE,duplicata,manter,,,"mesma imobiliária, códigos distintos: unidades de um mesmo lançamento (repasse)",grupo 30,conferida
+382,V61645,Portal imobiliário | Encontre seu imóvel em Passo Fundo,falha_carga,excluir,,,anúncio retirado do portal entre a indexação e a coleta da página,página atual: 'Imóvel indisponível ou código inválido',removida
+409,V62664,APARTAMENTO ED. VITORIANO,duplicata,manter,,,mesmo imóvel anunciado por outra imobiliária; mantido por ser o anúncio mais completo,grupo 29,conferida
+410,V55791,ED. VITORIANO,duplicata,excluir,,,"mesmo imóvel do id 409 (outra imobiliária, mesmo prédio, preço e área)",grupo 29,conferida
+414,V65668,ED.UNIQUE,duplicata,manter,,,mesmo imóvel anunciado por outra imobiliária; mantido por ser o anúncio mais completo,grupo 26,conferida
+420,V62341,UNIQUE - SEMI MOBILIADO,duplicata,excluir,,,"mesmo imóvel do id 414 (outra imobiliária, mesmo prédio, preço e área)",grupo 26,conferida
+421,V62049,APTO 2 DORM - REPASSE | ED. GLASS HOUSE,duplicata,manter,,,mesmo imóvel anunciado por outra imobiliária; mantido por ser o anúncio mais completo,grupo 27,conferida
+422,V61826,EDIFÍCIO MICHELÂNGELO,duplicata,manter,,,mesmo imóvel anunciado por outra imobiliária; mantido por ser o anúncio mais completo,grupo 28,conferida
+423,V61635,Portal imobiliário | Encontre seu imóvel em Passo Fundo,falha_carga,excluir,,,anúncio retirado do portal entre a indexação e a coleta da página,página atual: 'Imóvel indisponível ou código inválido',removida
+426,V59568,APARTAMENTO 2 DORM - GLASS RESIDENCE,duplicata,excluir,,,"mesmo imóvel do id 421 (outra imobiliária, mesmo prédio, preço e área)",grupo 27,conferida
+429,V56495,APARTAMENTO 3 DORMITORIOS,duplicata,excluir,,,"mesmo imóvel do id 422 (outra imobiliária, mesmo prédio, preço e área)",grupo 28,conferida
+451,V65723,AMPLO APARTAMENTO 3 DORM. CENTRAL,duplicata,excluir,,,"mesmo imóvel do id 452 (outra imobiliária, mesmo prédio, preço e área)",grupo 25,conferida
+452,V64567,APARTAMENTO 3 DORM. | RESIDENCIAL SEVILHA,duplicata,manter,,,mesmo imóvel anunciado por outra imobiliária; mantido por ser o anúncio mais completo,grupo 25,conferida
+470,V48197,Portal imobiliário | Encontre seu imóvel em Passo Fundo,falha_carga,excluir,,,anúncio retirado do portal entre a indexação e a coleta da página,página atual: 'Imóvel indisponível ou código inválido',removida
+486,V65558,RESIDENCIAL MAUÁ FINAL 3,duplicata,excluir,,,"mesmo imóvel do id 488 (outra imobiliária, mesmo prédio, preço e área)",grupo 24,removida
+488,V63892,APARTAMENTO 2 DORM - MAUÁ,duplicata,manter,,,mesmo imóvel anunciado por outra imobiliária; mantido por ser o anúncio mais completo,grupo 24,conferida
+500,V35276,Portal imobiliário | Encontre seu imóvel em Passo Fundo,falha_carga,excluir,,,anúncio retirado do portal entre a indexação e a coleta da página,página atual: 'Imóvel indisponível ou código inválido',removida
+510,V65271,MAISON RENOIR - 2D (1 SUÍTE),duplicata,manter,,,mesmo imóvel anunciado por outra imobiliária; mantido por ser o anúncio mais completo,grupo 23,conferida
+511,V61801,APTO 2 DORM | ED. MAISON RENOIR,duplicata,excluir,,,"mesmo imóvel do id 510 (outra imobiliária, mesmo prédio, preço e área)",grupo 23,conferida
+527,V62938,RESIDENCIAL ILHA BELLA -  APTO TRÊS DORMITORIOS,duplicata,excluir,,,"mesmo imóvel do id 530 (outra imobiliária, mesmo prédio, preço e área)",grupo 22,conferida
+530,V60344,AO LADO DO HC,duplicata,manter,,,mesmo imóvel anunciado por outra imobiliária; mantido por ser o anúncio mais completo,grupo 22,conferida
+548,V56050,Portal imobiliário | Encontre seu imóvel em Passo Fundo,falha_carga,excluir,,,anúncio retirado do portal entre a indexação e a coleta da página,página atual: 'Imóvel indisponível ou código inválido',removida
+603,V60921,APARTAMENTO,duplicata,manter,,,mesmo imóvel anunciado por outra imobiliária; mantido por ser o anúncio mais completo,grupo 21,conferida
+606,V53034,APARTAMENTO 3 DORM. SUITE E 3 VAGAS,duplicata,excluir,,,"mesmo imóvel do id 603 (outra imobiliária, mesmo prédio, preço e área)",grupo 21,conferida
+622,V64861,APARTAMENTO 3 DORM - MENPHIS,preco_m2_suspeito,manter,,,"duplex antigo no Centro, área grande: R$/m² baixo é plausível",página confere com a base,conferida
+643,V58056,APARTAMENTO 2 DORM - VITORIANO,area_suspeita,excluir,,,"área privativa inválida (≈12 m² em apto de 2 dorm.); a página publica só a área total, sem a privativa",página mostra apenas 'Área Total',conferida
+647,V54957,CASA - ARROIO DO SAL,nao_apartamento,excluir,,,"casa em outro município (Arroio do Sal), cadastrada como Passo Fundo","página: 'Casa Espaçosa em Vista Alegre, Arroio do Sal'",conferida
+651,V47165,CASA NO CENTRO,nao_apartamento,excluir,,,casa,"página: área construída 105 m², terreno 10x22",conferida
+669,V65907,Portal imobiliário | Encontre seu imóvel em Passo Fundo,falha_carga,excluir,,,anúncio retirado do portal entre a indexação e a coleta da página,página atual: 'Imóvel indisponível ou código inválido',removida
+682,V55715,ED. RES. MILAO- 2 DORM SEMI-MOBILIADO,bairro,corrigir,bairro,Centro,bairro inválido; Rua Antônio Araújo 814 (Ed. Milão) fica no Centro,"mesmo endereço do id 1085, cadastrado como Centro",nao_aberta
+696,V53440,Portal imobiliário | Encontre seu imóvel em Passo Fundo,falha_carga,excluir,,,anúncio retirado do portal entre a indexação e a coleta da página,página atual: 'Imóvel indisponível ou código inválido',removida
+699,V65167,APARTAMENTO ED LIVERPOOL,duplicata,manter,,,mesmo imóvel anunciado por outra imobiliária; mantido por ser o anúncio mais completo,grupo 20,conferida
+700,V65046,APARTAMENTO SEMIMOBILIADO COM TERRAÇO NO CENTRO,duplicata,excluir,,,"mesmo imóvel do id 699 (outra imobiliária, mesmo prédio, preço e área)",grupo 20,conferida
+705,V50851,STUDIO  | ED. MOVING SQUARE,duplicata,manter,,,unidades distintas: número de suítes diferente,grupo 19,conferida
+706,V50842,APTO 1 DORM - FINAL 01 | ED. MOVING SQUERE,duplicata,manter,,,unidades distintas: número de suítes diferente,grupo 19,removida
+721,V62400,STORIES RESIDENCIAL REVENDA,duplicata,manter,,,mesmo imóvel anunciado por outra imobiliária; mantido por ser o anúncio mais completo,grupo 18,conferida
+723,V57147,STORIES RESIDENCIAL,duplicata,excluir,,,"mesmo imóvel do id 721 (outra imobiliária, mesmo prédio, preço e área)",grupo 18,conferida
+731,V41258,SARAH | SEMIMOBILIADO,preco_m2_suspeito,manter,,,apartamento amplo/antigo: R$/m² baixo é plausível,página confere com a base,conferida
+754,V55621,ARUBA DUPLEX TOTALMENTE REFORMADO,duplicata,manter,,,mesmo imóvel anunciado por outra imobiliária; mantido por ser o anúncio mais completo,grupo 17,removida
+755,V49502,APTO 2 DORM | ED. ARUBA,duplicata,excluir,,,"mesmo imóvel do id 754 (outra imobiliária, mesmo prédio, preço e área)",grupo 17,removida
+760,V64845,INFINITY GARDEN REVENDA,duplicata,excluir,,,"mesmo imóvel do id 762 (outra imobiliária, mesmo prédio, preço e área)",grupo 16,conferida
+762,V61459,APTO 02 DORM - INFINITY GARDEN - REPASSE,duplicata,manter,,,mesmo imóvel anunciado por outra imobiliária; mantido por ser o anúncio mais completo,grupo 16,conferida
+767,V60533,Portal imobiliário | Encontre seu imóvel em Passo Fundo,falha_carga,excluir,,,anúncio retirado do portal entre a indexação e a coleta da página,página atual: 'Imóvel indisponível ou código inválido',removida
+773,V65782,VELKON RESIDENCE,duplicata,manter,,,mesmo imóvel anunciado por outra imobiliária; mantido por ser o anúncio mais completo,grupo 15,conferida
+774,V65653,VELKOM - 2 DORMITÓRIOS,duplicata,excluir,,,"mesmo imóvel do id 773 (outra imobiliária, mesmo prédio, preço e área)",grupo 15,conferida
+784,V61683,EDIFÍCIO NUMBER ONE (PRÓX. ESCOLA IE),duplicata,manter,,,unidades distintas: condomínio diferente (R$ 200 e R$ 260),grupo 14,conferida
+788,V59478,STÚDIO - MOOD - FRENTE FINAL 04,area_suspeita,excluir,,,área não publicada no anúncio,página sem nenhum campo de área,conferida
+789,V57681,RESIDENCIAL NUMBER ONE,duplicata,manter,,,unidades distintas: condomínio diferente (R$ 200 e R$ 260),grupo 14,conferida
+795,V52031,DREAMS - 2 DORMITPORIOS,area_suspeita,excluir,,,"área privativa inválida (≈12 m² em apto de 2 dorm.); a página publica só a área total, sem a privativa",página mostra apenas 'Área Total',conferida
+800,V64655,"MAE PRETA  -  AIRBNB (DIÁRIA SUPERIOR R$ 1.000,00)",bairro,corrigir,bairro,Centro,lixo de digitação antes do nome do bairro,'00) V 64655 Centro',nao_aberta
+806,V53981,DREAMS,duplicata,manter,,,"mesma imobiliária, códigos distintos e descrições diferentes (um inclui móveis)",grupo 13,conferida
+807,V46303,DREAMS |  CIDADE NOVA |  COM LAZER,duplicata,manter,,,"mesma imobiliária, códigos distintos e descrições diferentes (um inclui móveis)",grupo 13,conferida
+820,V64040,Portal imobiliário | Encontre seu imóvel em Passo Fundo,falha_carga,excluir,,,anúncio retirado do portal entre a indexação e a coleta da página,página atual: 'Imóvel indisponível ou código inválido',removida
+850,V61161,RESIDENCIAL EMÍLIO RIGÃO -DOIS DORMITÓRIOS,duplicata,manter,,,"mesma imobiliária, códigos distintos: unidades de um mesmo lançamento",grupo 12,conferida
+851,V61159,RESIDENCIAL EMÍLIO RIGÃO -DOIS DORMITÓRIOS,duplicata,manter,,,"mesma imobiliária, códigos distintos: unidades de um mesmo lançamento",grupo 12,conferida
+861,V54870,APARTAMENTO TRÊS DORMITÓRIOS | NOÉ DE MELLO,preco_m2_suspeito,manter,,,apartamento amplo/antigo: R$/m² baixo é plausível,página confere com a base,conferida
+865,V64599,APARTAMENTO 2 DORM - CHARMANT,area_suspeita,excluir,,,"área privativa inválida (≈12 m² em apto de 2 dorm.); a página publica só a área total, sem a privativa",página mostra apenas 'Área Total',conferida
+874,V63207,Portal imobiliário | Encontre seu imóvel em Passo Fundo,falha_carga,excluir,,,anúncio retirado do portal entre a indexação e a coleta da página,página atual: 'Imóvel indisponível ou código inválido',removida
+877,V53246,EDIFÍCIO MIRANTE DA URUGUAI,preco_m2_suspeito,manter,,,valores plausíveis para apto amplo no Centro; anúncio já retirado,,removida
+885,V52392,Portal imobiliário | Encontre seu imóvel em Passo Fundo,falha_carga,excluir,,,anúncio retirado do portal entre a indexação e a coleta da página,página atual: 'Imóvel indisponível ou código inválido',removida
+893,V54752,Portal imobiliário | Encontre seu imóvel em Passo Fundo,falha_carga,excluir,,,anúncio retirado do portal entre a indexação e a coleta da página,página atual: 'Imóvel indisponível ou código inválido',removida
+895,V65879,APARTAMENTO 02 DORM. | RESIDENCIAL DOS COQUEIROS,duplicata,excluir,,,"mesmo imóvel do id 899 (outra imobiliária, mesmo prédio, preço e área)",grupo 11,removida
+899,V61735,RESIDENCIAL DOS COQUEIROS,duplicata,manter,,,mesmo imóvel anunciado por outra imobiliária; mantido por ser o anúncio mais completo,grupo 11,conferida
+914,V56547,APARTAMENTO DOIS DORMITÓRIOS | EMÍLIO RIGÃO,duplicata,manter,,,"mesma imobiliária, códigos distintos: unidades de um mesmo lançamento",grupo 10,conferida
+915,V56545,APARTAMENTO DOIS DORMITÓRIOS | EMÍLIO RIGÃO,duplicata,manter,,,"mesma imobiliária, códigos distintos: unidades de um mesmo lançamento",grupo 10,conferida
+932,V64833,STUDIO - EDIFÍCIO VETRO RESIDENCE,sem_preco,excluir,,,sem preço publicado (sem variável-alvo),página: 'Consulte!',conferida
+936,V24847,ED. ILHA DE COZUMEL,preco_m2_suspeito,manter,,,"duplex antigo no Centro, área grande: R$/m² baixo é plausível",página confere com a base,conferida
+938,V63514,EDIFICIO VARGAS,duplicata,excluir,,,"mesmo imóvel do id 940 (outra imobiliária, mesmo prédio, preço e área)",grupo 9,removida
+940,V61821,ED. VARGAS 1353 EM PASSO FUNDO,duplicata,manter,,,mesmo imóvel anunciado por outra imobiliária; mantido por ser o anúncio mais completo,grupo 9,conferida
+954,V61906,RESIDENCIAL NAPOLITANO,duplicata,manter,,,mesmo imóvel anunciado por outra imobiliária; mantido por ser o anúncio mais completo,grupo 8,conferida
+956,V59776,APARTAMENTO 02 DORMITÓRIOS | NAPOLITANO,duplicata,excluir,,,"mesmo imóvel do id 954 (outra imobiliária, mesmo prédio, preço e área)",grupo 8,conferida
+957,V57345,APARTAMENTO DOIS DORMITÓRIOS- GARDEN PLACE,bairro,corrigir,bairro,,campo bairro contém texto que não é bairro; a imputar pela coordenada,'mobilidade rápida.' / 'Garden' (nome do edifício),nao_aberta
+960,V53947,EDIFÍCIO ESPLANADA I,duplicata,manter,,,"mesma imobiliária, códigos distintos: unidades distintas",grupo 7,conferida
+961,V53946,EDIFÍCIO ESPLANADA I,duplicata,manter,,,"mesma imobiliária, códigos distintos: unidades distintas",grupo 7,conferida
+962,V53792,ED. ESPLANADA I,duplicata,manter,,,"unidades distintas: uma 'de frente', outra 'de fundos'",grupo 6,conferida
+963,V53783,ED. ESPLANADA I,duplicata,manter,,,"unidades distintas: uma 'de frente', outra 'de fundos'",grupo 6,conferida
+1005,V50952,APTO 3 DORM | ED. BUAES,preco_m2_suspeito,manter,,,valores plausíveis para apto amplo no Centro; anúncio já retirado,,removida
+1013,V63475,CASA DE ALVENARIA MINHA CASA MINHA VIDA,nao_apartamento,excluir,,,casa (e sem preço),"página: casa de alvenaria, terreno 6x23, valor 'Consulte!'",conferida
+1014,V62446,RESIDENCIAL PAMPA -  MCMV -,duplicata,manter,,,"mesma imobiliária, códigos distintos: unidades de um mesmo lançamento",grupo 5,conferida
+1015,V62437,RESIDENCIAL PAMPA -  MCMV -,duplicata,manter,,,"mesma imobiliária, códigos distintos: unidades de um mesmo lançamento",grupo 5,conferida
+1037,V62482,Portal imobiliário | Encontre seu imóvel em Passo Fundo,falha_carga,excluir,,,anúncio retirado do portal entre a indexação e a coleta da página,página atual: 'Imóvel indisponível ou código inválido',removida
+1067,V63916,Portal imobiliário | Encontre seu imóvel em Passo Fundo,falha_carga,excluir,,,anúncio retirado do portal entre a indexação e a coleta da página,página atual: 'Imóvel indisponível ou código inválido',removida
+1085,V20347,KITINETE | MILÃO,area_suspeita,excluir,,,área não publicada no anúncio,página sem nenhum campo de área,conferida
+1101,V64084,DON ANARO,duplicata,excluir,,,"mesmo imóvel do id 1103 (outra imobiliária, mesmo prédio, preço e área)",grupo 4,conferida
+1103,V62473,ED. DON ANARO - APARTAMENTO 01 DORMITÓRIO,duplicata,manter,,,mesmo imóvel anunciado por outra imobiliária; mantido por ser o anúncio mais completo,grupo 4,conferida
+1110,V65964,Portal imobiliário | Encontre seu imóvel em Passo Fundo,falha_carga,excluir,,,anúncio retirado do portal entre a indexação e a coleta da página,página atual: 'Imóvel indisponível ou código inválido',removida
+1128,V62311,APARTAMENTO 2 DORMITÓRIOS - CENTRO,preco_m2_suspeito,manter,,,apartamento amplo/antigo: R$/m² baixo é plausível,página confere com a base,conferida
+1137,V62850,EDIFICIO IBISA,sem_preco,excluir,,,sem preço na coleta; anúncio já retirado,,removida
+1145,V59976,Portal imobiliário | Encontre seu imóvel em Passo Fundo,falha_carga,excluir,,,anúncio retirado do portal entre a indexação e a coleta da página,página atual: 'Imóvel indisponível ou código inválido',removida
+1154,V61967,APARTAMENTO DOIS DORMITÓRIOS | TARUMANS II,duplicata,manter,,,mesmo imóvel anunciado por outra imobiliária; mantido por ser o anúncio mais completo,grupo 3,conferida
+1155,V52365,APARTAMENTO DOIS DORMITÓRIOS | TARUMANS II,duplicata,excluir,,,"mesmo imóvel do id 1154 (outra imobiliária, mesmo prédio, preço e área)",grupo 3,conferida
+1190,V60040,RESIDENCIAL MARQUEZI MOBILIADO,duplicata,manter,,,mesmo imóvel anunciado por outra imobiliária; mantido por ser o anúncio mais completo,grupo 2,conferida
+1191,V56135,RESIDENCIAL MARQUEZI VI,duplicata,excluir,,,"mesmo imóvel do id 1190 (outra imobiliária, mesmo prédio, preço e área)",grupo 2,conferida
+1198,V63558,CONDOMINIO RESIDENCIAL SÃO RAFAEL,sem_preco,excluir,,,sem preço publicado (sem variável-alvo),página: 'Consulte!',conferida
+1202,V32138,BOX TRIPLO DE GARAGEM | PRIME OFFICE,nao_apartamento,excluir,,,box de garagem,"título e página: 'Box de garagem', sem dormitórios",conferida
+1203,V32139,BOX DE GARGEM DUPLO | PARK DA GARE,nao_apartamento,excluir,,,box de garagem,"título e página: 'Box de garagem', sem dormitórios",conferida
+1204,V32137,BOX TRIPLO DE GARAGEM | PRIME OFFICE I,nao_apartamento,excluir,,,box de garagem,"título e página: 'Box de garagem', sem dormitórios",conferida
+1205,V32140,BOX DE GARAGEM DUPLO | PARK DA GARE,nao_apartamento,excluir,,,box de garagem,"título e página: 'Box de garagem', sem dormitórios",conferida
+1206,V52713,BOX DE GARAGEM | ORESTE WEBER,nao_apartamento,excluir,,,box de garagem,"título e página: 'Box de garagem', sem dormitórios",conferida
+1207,V52714,BOX DE GARAGEM | ORESTE WEBER,nao_apartamento,excluir,,,box de garagem,"título e página: 'Box de garagem', sem dormitórios",conferida
+1208,V32146,BOX DE GARAGEM | ALTA VISTA,nao_apartamento,excluir,,,box de garagem,"título e página: 'Box de garagem', sem dormitórios",conferida
+1209,V32142,BOX DE GARAGEM | ALTA VISTA,nao_apartamento,excluir,,,box de garagem,"título e página: 'Box de garagem', sem dormitórios",conferida
+1210,V32141,BOX DE GARAGEM | ALTA VISTA,nao_apartamento,excluir,,,box de garagem,"título e página: 'Box de garagem', sem dormitórios",conferida
+1211,V34808,BOX DE GARAGEM,nao_apartamento,excluir,,,box de garagem,"título e página: 'Box de garagem', sem dormitórios",conferida
+1213,V65204,BELLE VIE - VIVANT QUARTIER,sem_preco,excluir,,,sem preço publicado (sem variável-alvo),página: 'Consulte!',conferida
+1214,V60492,RESIDENCIAL TANNAT - FINAMENTE MOBILIADO,sem_preco,excluir,,,sem preço na coleta; anúncio já retirado,,removida
+1215,V53459,REPASSE AUTHENTIQUE RESIDENCE: PREÇO ESPECIAL,sem_preco,excluir,,,sem preço publicado (sem variável-alvo),página: 'Consulte!',conferida
+1216,V40344,ARTSY,sem_preco,excluir,,,sem preço publicado (sem variável-alvo),página: 'Consulte!',conferida
+1217,V36584,RESIDENCIAL RAFAELA,sem_preco,excluir,,,sem preço na coleta; anúncio já retirado,,removida
+1218,V6555,COBERTURA CONDOMÍNIO PRAÇA SANTA TEREZINHA - DUPLICADO,sem_preco,excluir,,,sem preço publicado (sem variável-alvo),página: 'Consulte!',conferida
+1219,,Meus favoritos - Portal imobiliário,falha_carga,excluir,,,URL indexada não é anúncio,página 'Meus favoritos - Portal imobiliário',conferida

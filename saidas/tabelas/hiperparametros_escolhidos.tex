@@ -1,0 +1,16 @@
+% Gerado por analise/tabela_hiperparametros.py - nao editar a mao
+\begin{table*}[ht]
+\centering
+\caption{Hiperparâmetros selecionados pela busca aleatória (menor MAPE médio na validação cruzada com cinco partições sobre o conjunto de treino).}
+\label{tab:hiper_escolhidos}
+\begin{tabularx}{\textwidth}{lX}
+\toprule
+\textbf{Modelo} & \textbf{Configuração selecionada} \\
+\midrule
+\textit{Random Forest} & \texttt{n\_estimators}: 760; \texttt{max\_depth}: sem limite; \texttt{min\_samples\_leaf}: 1; \texttt{max\_features}: raiz quadrada \\
+\textit{Gradient Boosting} & \texttt{n\_estimators}: 800; \texttt{learning\_rate}: 0,031; \texttt{max\_depth}: 6; \texttt{min\_samples\_leaf}: 8; \texttt{subsample}: 0,84; \texttt{max\_features}: raiz quadrada \\
+XGBoost & \texttt{n\_estimators}: 527; \texttt{learning\_rate}: 0,078; \texttt{max\_depth}: 8; \texttt{min\_child\_weight}: 7; \texttt{subsample}: 0,96; \texttt{colsample\_bytree}: 0,55; \texttt{reg\_lambda}: 0,117; \texttt{reg\_alpha}: 0,031 \\
+LightGBM & \texttt{n\_estimators}: 741; \texttt{learning\_rate}: 0,011; \texttt{num\_leaves}: 35; \texttt{min\_child\_samples}: 6; \texttt{subsample}: 0,71; \texttt{colsample\_bytree}: 0,64; \texttt{reg\_lambda}: 0,014 \\
+\bottomrule
+\end{tabularx}
+\end{table*}

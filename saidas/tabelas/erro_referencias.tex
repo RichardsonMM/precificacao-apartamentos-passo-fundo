@@ -1,0 +1,21 @@
+% Gerado por analise/analise_erros.py - nao editar a mao
+\begin{table}[ht]
+\centering
+\caption{Erro no conjunto de teste dos modelos e das estimativas ingênuas. MAE em milhares de reais; MAPE e erro percentual mediano (MdAPE) em \%; nas duas últimas colunas, percentual de imóveis com erro de até 10\% e de até 20\%.}
+\label{tab:referencias}
+\small
+\begin{tabular}{lrrrrr}
+\toprule
+\textbf{Estimativa} & \textbf{MAE} & \textbf{MAPE} & \textbf{MdAPE} & \textbf{$\leq$10\%} & \textbf{$\leq$20\%} \\
+\midrule
+Preço mediano & 376 & 52,4 & 40,6 & 12 & 22 \\
+Preço do m$^2$ $\times$ área & 239 & 33,0 & 26,2 & 19 & 38 \\
+\midrule
+LightGBM & 124 & 15,1 & 10,9 & 48 & 72 \\
+XGBoost & 128 & 15,4 & 11,4 & 46 & 72 \\
+Gradient Boosting & 122 & 15,0 & 11,2 & 46 & 73 \\
+Random Forest & 132 & 16,2 & 12,7 & 42 & 67 \\
+Regressão Linear & 145 & 17,3 & 14,1 & 38 & 65 \\
+\bottomrule
+\end{tabular}
+\end{table}
